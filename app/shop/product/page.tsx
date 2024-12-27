@@ -11,7 +11,8 @@ const ProductPage = () => {
           <li><Link href="/" className="hover:text-gray-800">Home</Link></li>
           <li>/</li>
           <li><Link href="/shop" className="hover:text-gray-800">Shop</Link></li>
-          <li>/</li>
+          <li> <li><Link href="/about" className="hover:text-gray-800">About</Link></li>
+          </li>
           <li className="text-gray-800">Asgaard Sofa</li>
         </ol>
       </nav>

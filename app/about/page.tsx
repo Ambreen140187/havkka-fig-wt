@@ -14,7 +14,7 @@ const ProductPage3 = () => {
           <li><Link href="/about" className="hover:text-gray-800">About</Link>
 
           </li>
-          <i><Link href="/shop" className="hover:text-gray-800">Shop</Link></i>
+          <i><Link href="/contact" className="hover:text-gray-800">Contact</Link></i>
           <li className="text-gray-800">Asgaard Sofa</li>
         </ol>
       </nav>
@@ -24,8 +24,8 @@ const ProductPage3 = () => {
         {/* Image Gallery */}
         <div className="flex">
           {/* Thumbnails */}
-          <div className="flex flex-col space-y-2 mr-4">.
-            {["/sofa.png", "/sofa_3.png", "/sofa_4.png"].map((val, index) =>
+          <div className="flex flex-col space-y-2 mr-4">
+            {["public/sofa.png", "public/sofa_3.png", "public/sofa_4.png"].map((val, index) =>
               <Image
                 key={index}
                 src={`/${val}`}
@@ -34,6 +34,7 @@ const ProductPage3 = () => {
                 height={80}
                 className="rounded-lg cursor-pointer border border-gray-300 hover:border-black"
               />
+            
               )}
           </div>
 

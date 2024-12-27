@@ -10,7 +10,6 @@ import ProductPage from "@/components/productPage";
 // import ProductDetails from "@/components/productpageMid";
 import ShopPage from "@/components/shop";
 import Page from "@/components/shop/page";
-
 import PaginationAndFeatures from "@/components/shopComponent"
 import Page2 from "./account/page";
 
@@ -30,6 +29,7 @@ export default function Home() {
       <Page/>
       <Cart/>
       <Page2/>
+    
       {/* <MyAccount/> */}
       {/* <Checkout/> */}
       
